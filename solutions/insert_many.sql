@@ -16,10 +16,4 @@ VALUES (
         'Lego Dinosaur Fossils',
         5923,
         'Ideas'
-    ),
-    (
-        '2021-11-08',
-        'Lego Titanic',
-        9090,
-        'Creator'
-    )
+    );

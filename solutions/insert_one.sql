@@ -4,4 +4,4 @@ VALUES (
         'Lego Creator Taj Mahal',
         5923,
         'Architecture'
-    )
+    );

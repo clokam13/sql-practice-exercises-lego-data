@@ -1,1 +1,0 @@
-DESCRIBE lego_sets

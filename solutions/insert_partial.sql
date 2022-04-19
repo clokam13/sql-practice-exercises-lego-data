@@ -8,4 +8,4 @@ VALUES (
         '2020-11-27',
         'Lego Colosseum',
         'Creator'
-    )
+    );
