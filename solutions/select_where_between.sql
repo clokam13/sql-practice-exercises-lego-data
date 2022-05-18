@@ -1,0 +1,3 @@
+SELECT *
+FROM lego_sets
+WHERE release_date BETWEEN '2020-01-01' AND CURRENT_DATE();

@@ -14,7 +14,6 @@ Create a Lego Database in MySQL.
 
 Create a Lego Sets Table in MySQL which has the following columns, 
 
-
 - ```id``` - An Integer that is Primary Key and Auto Increments
 - ```release_date``` - A Date that cannot be NULL
 - ```model_name``` - A String
@@ -84,36 +83,13 @@ Update the “availability” column to be “Retail” for all sets.
 
 [**Click here for Solution**](solutions/update_availability.sql)
 
-## #9 | Delete the Lego Sets Table
-
-Delete the Lego Sets table from the database. 
-
-[**Click here for Solution**](solutions/drop.sql)
-
-## #10 | Load Data from CSV in specific format 
-
-[**Data Set**](data/lego_data.csv)
-
-Write SQL statement to transform and load lego sets data from CSV into Lego Sets table with the following format, 
-
-- ```id``` - An Integer that is Primary Key and Auto Increments
-- ```model_name``` - A String that cannot be NULL
-- ```release_date``` - An Integer
-- ```theme``` - A String
-- ```subtheme``` - A String
-- ```total_pieces``` - An Integer
-- ```total_mini_figures``` - An Integer
-- ```availability``` - A String
-
-[**Click here for Solution**](solutions/transform_load.sql)
-
-## #11 | Retrieve all data from Lego Sets Table
+## #9 | Retrieve all data from Lego Sets Table
 
 Write a query to retrieve all the available data from the Lego Sets Table. 
 
 [**Click here for Solution**](solutions/select.sql)
 
-## #12 | Retrieve specific columns with aliases from Lego Sets Table 
+## #10 | Retrieve specific columns with aliases from Lego Sets Table 
 
 Write a query to retrieve all lego sets data with, 
 
@@ -121,27 +97,79 @@ Write a query to retrieve all lego sets data with,
 - With column aliases as, 
   - model_name as Model Name
   - total_pieces as Total Pieces
-  - theme as Theme
-  - theme column as ALL CAPS
+  - theme column as Theme and in ALL CAPS
 
 [**Click here for Solution**](solutions/select_as.sql)
 
-## #13 | Retrieve from Lego Sets Table based on conditions
+## #11 | Retrieve from Lego Sets Table based on conditions
+
+Write a query to retrive, 
+
+- All Lego sets which have more than 9000 pieces
+
+[**Click here for Solution**](solutions/select_where.sql)
 
 Write a query to retrieve, 
 
 - All Lego sets which were released after 2020 and, 
 - Are from the “Creator” theme
 
-[**Click here for Solution**](solutions/select_where.sql)
+[**Click here for Solution**](solutions/select_where_and.sql)
 
 Write a query to retrieve, 
 
-- All Lego sets except for those from “Creator” and “Idea” themes
+- All Lego Sets where the model name that contains a 'm'
+
+[**Click here for Solution**](solutions/select_where_like.sql)
+
+Write a query to retrieve, 
+
+- All Lego sets that were released between 2020 and today
+
+[**Click here for Solution**](solutions/select_where_between.sql)
+
+Write a query to retrieve, 
+
+- All Lego sets that have less than 4000 pieces 
+- (or) are have more than 9000 pieces
+
+[**Click here for Solution**](solutions/select_where_or.sql)
+
+Write a query to retrieve, 
+
+- All Lego sets except for those from “Creator” and “Duplo” themes
 
 [**Click here for Solution**](solutions/select_notin.sql)
 
+Write a query to retrieve, 
 
+- The three most recent Lego sets by release_date
+
+[**Click here for Solution**](solutions/select_orderby_limit.sql)
+
+Write a query to retrieve, 
+
+- All the lego sets by theme showing average pieces, maximum pieces and minimum pieces by theme
+
+[**Click here for Solution**](solutions/select_groupby_aggregations.sql)
+
+Write a query to retrieve, 
+
+- All the lego sets by theme which have more than 1 set in the theme
+
+[**Click here for Solution**](solutions/select_aggregations.sql)
+
+Write a query to retrieve, 
+
+- All the lego sets grouped by theme and ordered by total pieces
+
+[**Click here for Solution**](solutions/select_partitionby_over.sql)
+
+## #12 | Delete the Lego Sets Table
+
+Delete the Lego Sets table from the database. 
+
+[**Click here for Solution**](solutions/drop.sql)
 
 
 

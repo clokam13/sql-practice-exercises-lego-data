@@ -1,1 +1,1 @@
-CREATE DATABASE lego_sets;
+CREATE DATABASE lego_db;

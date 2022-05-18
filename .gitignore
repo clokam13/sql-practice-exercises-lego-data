@@ -3,3 +3,5 @@ credentials.txt
 .DS_Store
 dev-db-connection.session.sql
 sqltools_20220323164216_87933.log
+extra.md
+select_andor.sql

@@ -1,0 +1,3 @@
+SELECT *
+FROM lego_sets
+LIMIT 20;
